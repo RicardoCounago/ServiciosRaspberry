@@ -2,7 +2,7 @@
 
 __RPI Monintor__ es un servicio que permite monitorizar parámetros de una __raspberry__ a traves de una página web, permite ver valores como la versión del sistema, uso de memorias o temperatura. Esta funcion es sobre todo util para sistemas sin entorno gráfico.
 
-Para instalarlo lo primero es conectarse a la raspberry mediante __SSH__, en mi caso el comando necesario para ello es ssh pi@cebem2019a.ddns.net, tras introducir la contraseña ya estamos conectados a la raspberry.
+Para instalarlo lo primero es conectarse a la raspberry mediante __SSH__, en mi caso el comando necesario para ello es ssh __pi@cebem2019a.ddns.net__, tras introducir la contraseña ya estamos conectados a la raspberry.
 
 Los comandos necesarios para instalar este servicio son los siguinetes:
 
@@ -14,13 +14,13 @@ sudo apt update
 sudo apt install rpimonitor
 ```
 
-En mi caso antes de reailaz el tercer comando tuve que instalar dirmngr con el siguiente comando:
+En mi caso antes de reailaz el tercer comando tuve que instalar __dirmngr__ con el siguiente comando:
 
 ```bash
 sudo apt-get install dirmngr
 ```
 
-Esto configurará en el servicio por defecto en el puerto 8888.
+Esto configurará en el servicio por defecto en el __puerto 8888__.
 
 Ahora podremos comprobar el estado de la raspberry en la siguiente dirección:
 
